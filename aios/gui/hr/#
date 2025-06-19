@@ -1,0 +1,98 @@
+# hr_onboarding_gui_v2.py
+# Purpose: Onboard confirmed employees with prefill from application CSV
+# Standards: IRS W-4, DHS I-9, ISO 30414, ABL Rev2 Air-Gap Compliance
+
+import streamlit as st
+import pandas as pd
+import os
+from datetime import date
+
+st.set_page_config(page_title="HR Onboarding Form", layout="centered")
+
+# Logo
+logo_path = os.path.expanduser("~/Dropbox/EI_Cloud/ABL_Rev2_6_1_25/assets/branding/logo.png")
+if os.path.exists(logo_path):
+    st.image(logo_path, width=120)
+
+st.title("🎯 HR Onboarding Form")
+
+# Try prefill from applicant data
+applicant_csv = os.path.expanduser("~/Dropbox/EI_Cloud/ABL_Rev2_6_1_25/aios/data/hr/employee_full_applications.csv")
+prefill = {}
+
+if os.path.exists(applicant_csv):
+    try:
+        df = pd.read_csv(applicant_csv)
+        names = df["full_name"].dropna().unique().tolist()
+        selected_name = st.selectbox("Select Applicant", ["--"] + names)
+        if selected_name != "--":
+            match = df[df["full_name"] == selected_name].iloc[0]
+            prefill = match.to_dict()
+    except Exception as e:
+        st.warning("⚠️ Unable to load prefill data: " + str(e))
+
+st.header("Employee Information")
+full_name = st.text_input("Full Legal Name", value=prefill.get("full_name", ""), help="Employee's legal name for records.")
+email = st.text_input("Email", value=prefill.get("email", ""), help="Official work or personal email address.")
+phone = st.text_input("Phone", value=prefill.get("cell", ""), help="Main contact number.")
+start_date = st.date_input("Start Date", value=date.today(), help="Date employment begins.")
+emp_id = st.text_input("Assigned Employee ID", help="Generated or assigned HR ID.")
+
+st.header("Emergency Contact")
+e_contact_name = st.text_input("Emergency Contact Name", value=prefill.get("emergency_contact_name", ""), help="Who should we contact in case of emergency?")
+e_contact_phone = st.text_input("Emergency Contact Phone", value=prefill.get("emergency_contact_phone", ""), help="Phone number of emergency contact.")
+
+st.header("Department & Management")
+dept = st.text_input("Department", help="What department is the employee assigned to?")
+manager = st.text_input("Manager Name", help="Direct supervisor or manager.")
+role = st.selectbox("System Role", ["Viewer", "Staff", "Manager", "Admin"], help="Sets access level for internal systems.")
+
+st.header("Compliance Documentation")
+w4_ack = st.checkbox("W-4 received", help="Check if the employee has submitted a completed W-4 form.")
+i9_ack = st.checkbox("I-9 verification completed", help="Check if valid I-9 documents were presented.")
+
+with st.expander("ⓘ What documents are acceptable for I-9 verification?"):
+    st.markdown("""
+    Acceptable documentation includes:
+    - U.S. Passport or Passport Card
+    - Permanent Resident Card
+    - OR a combination of:
+        - Driver's License or State ID
+        - AND Social Security Card or Birth Certificate
+    Documents must be unexpired and verified in person by HR staff.
+    """)
+
+st.file_uploader("Upload presented ID(s)", type=["pdf", "jpg", "png"], help="Scan or upload copies of I-9 identification.")
+
+st.header("HR Certification")
+hr_user = st.text_input("HR Staff Name", help="Name of the HR person completing this form.")
+notes = st.text_area("Internal Notes", help="Optional notes for HR-only review.")
+confirm = st.checkbox("I certify that the above onboarding steps have been completed.", help="Required for final submission.")
+
+if st.button("Submit Onboarding Record"):
+    if not (full_name and email and emp_id and confirm):
+        st.error("❌ Please complete required fields before submitting.")
+    else:
+        row = {
+            "Full Name": full_name,
+            "Email": email,
+            "Phone": phone,
+            "Start Date": str(start_date),
+            "Employee ID": emp_id,
+            "Department": dept,
+            "Manager": manager,
+            "System Role": role,
+            "Emergency Contact": e_contact_name,
+            "Emergency Phone": e_contact_phone,
+            "W-4 Received": "Yes" if w4_ack else "No",
+            "I-9 Verified": "Yes" if i9_ack else "No",
+            "HR Staff": hr_user,
+            "Notes": notes,
+            "Confirmed": "Yes" if confirm else "No"
+        }
+
+        output_path = os.path.expanduser("~/Dropbox/EI_Cloud/ABL_Rev2_6_1_25/aios/data/hr/employees.csv")
+        df_out = pd.DataFrame([row])
+        df_out.to_csv(output_path, mode="a", index=False, header=not os.path.exists(output_path))
+        st.success("✅ Onboarding successfully recorded.")
+

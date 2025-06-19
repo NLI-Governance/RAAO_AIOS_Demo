@@ -1,0 +1,292 @@
+{
+  "time off": [
+    "leave",
+    "vacation",
+    "PTO",
+    "absent"
+  ],
+  "termination": [
+    "firing",
+    "dismissal",
+    "layoff",
+    "let go"
+  ],
+  "dress code": [
+    "appearance policy",
+    "uniform rule",
+    "attire"
+  ],
+  "pets": [
+    "dog",
+    "cat",
+    "animal"
+  ],
+  "benefits": [
+    "health plan",
+    "vision",
+    "dental",
+    "401k",
+    "coverage"
+  ],
+  "remote work": [
+    "telecommute",
+    "work from home",
+    "WFH",
+    "virtual work"
+  ],
+  "harassment": [
+    "bullying",
+    "unwelcome behavior",
+    "intimidation"
+  ],
+  "payday": [
+    "paycheck",
+    "salary",
+    "deposit date",
+    "wage day"
+  ],
+  "conflict": [
+    "disagreement",
+    "issue",
+    "dispute",
+    "incident"
+  ],
+  "reimbursement": [
+    "repay",
+    "claim",
+    "compensation",
+    "refund"
+  ],
+  "sick days": [
+    "illness",
+    "doctor visit",
+    "medical leave",
+    "absence"
+  ],
+  "casual dress": [
+    "jeans",
+    "friday attire",
+    "informal clothing",
+    "relaxed dress code"
+  ],
+  "cat": [
+    "kitten",
+    "animal",
+    "feline"
+  ],
+  "fireing": [
+    "termination",
+    "dismissal",
+    "let go"
+  ],
+  "grievance": [
+    "complaint",
+    "dispute",
+    "issue",
+    "concern"
+  ],
+  "interns": [
+    "trainees",
+    "temporary staff",
+    "student workers"
+  ],
+  "parking": [
+    "permit",
+    "lot access",
+    "employee parking"
+  ],
+  "referral program": [
+    "recommendation bonus",
+    "employee referral"
+  ],
+  "birthdays": [
+    "celebrations",
+    "employee milestones"
+  ],
+  "anniversaries": [
+    "work milestones",
+    "service dates"
+  ],
+  "anonymous feedback": [
+    "private suggestion",
+    "confidential report"
+  ],
+  "layoff": [
+    "downsizing",
+    "reduction in force",
+    "termination"
+  ],
+  "code of conduct": [
+    "ethics policy",
+    "behavior rules"
+  ],
+  "conflict of interest": [
+    "dual role",
+    "bias",
+    "competing interest"
+  ],
+  "side job": [
+    "moonlighting",
+    "second job",
+    "external employment"
+  ],
+  "performance bonus": [
+    "incentive",
+    "reward",
+    "merit pay"
+  ],
+  "sabbatical": [
+    "extended leave",
+    "study break",
+    "career pause"
+  ],
+  "employee portal": [
+    "intranet",
+    "HR system",
+    "self-service site"
+  ],
+  "equipment failure": [
+    "broken device",
+    "computer crash",
+    "hardware issue"
+  ],
+  "onboarding": [
+    "orientation",
+    "new hire training",
+    "first day process"
+  ],
+  "exit interview": [
+    "departure feedback",
+    "offboarding meeting"
+  ],
+  "biometric": [
+    "fingerprint",
+    "face scan",
+    "iris recognition"
+  ],
+  "safe behavior": [
+    "safety compliance",
+    "incident prevention"
+  ],
+  "ADA accommodation": [
+    "disability support",
+    "access adjustment"
+  ],
+  "PTO accrual": [
+    "time off balance",
+    "vacation tracking"
+  ],
+  "travel policy": [
+    "trip guideline",
+    "work trip rule"
+  ],
+  "clock in": [
+    "punch in",
+    "start time",
+    "check in"
+  ],
+  "clock out": [
+    "punch out",
+    "end time",
+    "check out"
+  ],
+  "shift swap": [
+    "schedule change",
+    "trade shift",
+    "swap schedule"
+  ],
+  "emergency contact": [
+    "ICE info",
+    "urgent contact"
+  ],
+  "intranet": [
+    "employee site",
+    "HR portal"
+  ],
+  "zero tolerance": [
+    "strict policy",
+    "no exceptions rule"
+  ],
+  "whistleblower": [
+    "anonymous report",
+    "ethics report",
+    "internal alert"
+  ],
+  "data privacy": [
+    "personal info",
+    "confidentiality",
+    "info security"
+  ],
+  "medical leave": [
+    "doctor's time off",
+    "FMLA",
+    "illness absence"
+  ],
+  "FMLA": [
+    "family leave",
+    "medical leave act"
+  ],
+  "expense report": [
+    "cost form",
+    "reimbursement form"
+  ],
+  "meal reimbursement": [
+    "food refund",
+    "per diem meal"
+  ],
+  "training request": [
+    "learning plan",
+    "skills course"
+  ],
+  "probation": [
+    "intro period",
+    "trial phase"
+  ],
+  "standing desk": [
+    "ergonomic option",
+    "adjustable desk"
+  ],
+  "quiet space": [
+    "wellness area",
+    "calm zone",
+    "silent room"
+  ],
+  "religious accommodation": [
+    "faith-based need",
+    "belief exception"
+  ],
+  "hazard": [
+    "risk",
+    "danger",
+    "unsafe condition"
+  ],
+  "PPE": [
+    "safety gear",
+    "protective equipment"
+  ],
+  "contractor": [
+    "temp worker",
+    "external consultant"
+  ],
+  "discipline": [
+    "corrective action",
+    "policy violation response"
+  ],
+  "overtime": [
+    "extra hours",
+    "beyond shift"
+  ],
+  "badge": [
+    "access card",
+    "entry ID"
+  ],
+  "mentor": [
+    "coach",
+    "career guide",
+    "workplace advisor"
+  ],
+  "anonymous tip": [
+    "confidential report",
+    "secret alert"
+  ]
+}

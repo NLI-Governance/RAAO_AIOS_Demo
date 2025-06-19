@@ -1,0 +1,52 @@
+# Employee Leave Tracker GUI
+# Purpose: Track leave balances, time off requests, and approvals
+# Standards: Role-based access, payroll impact, CSV audit trail, consistent GUI format
+
+import streamlit as st
+import pandas as pd
+import os
+from datetime import date
+
+CSV_PATH = os.path.expanduser("~/Dropbox/EI_Cloud/ABL_Rev2_6_1_25/data/hr/employee_leave_log.csv")
+LOGO_PATH = os.path.expanduser("~/Dropbox/EI_Cloud/ABL_Rev2_6_1_25/assets/branding/logo.png")
+
+st.set_page_config(page_title="Employee Leave Tracker", layout="centered")
+if os.path.exists(LOGO_PATH):
+    st.image(LOGO_PATH, width=120)
+
+st.title("🏖️ Employee Leave Tracker")
+st.caption("Log time off requests and view balances.")
+
+with st.form("leave_form"):
+    name = st.text_input("Employee Name")
+    emp_id = st.text_input("Employee ID")
+    leave_type = st.selectbox("Leave Type", ["Vacation", "Sick", "Personal", "Bereavement", "Other"])
+    start_date = st.date_input("Start Date")
+    end_date = st.date_input("End Date")
+    total_days = st.number_input("Total Days Requested", min_value=0.5, step=0.5)
+    reason = st.text_area("Reason (optional)")
+    approval_status = st.selectbox("Approval Status", ["Pending", "Approved", "Denied"])
+
+    st.markdown(
+        "<div style='font-size: small;'>"
+        "❓ <b>Leave Type:</b> Select appropriate category. Vacation is typically pre-approved while others may require documentation."
+        "</div>",
+        unsafe_allow_html=True
+    )
+
+    submit = st.form_submit_button("Submit Request")
+
+    if submit:
+        if name and emp_id and total_days > 0:
+            record = pd.DataFrame([[name, emp_id, leave_type, str(start_date), str(end_date), total_days, reason, approval_status]],
+                                  columns=["Employee Name", "Employee ID", "Leave Type", "Start Date", "End Date", "Days Requested", "Reason", "Approval Status"])
+            if os.path.exists(CSV_PATH):
+                existing = pd.read_csv(CSV_PATH)
+                updated = pd.concat([existing, record], ignore_index=True)
+            else:
+                updated = record
+
+            updated.to_csv(CSV_PATH, index=False)
+            st.success("✅ Leave request submitted.")
+        else:
+            st.error("Please complete all required fields and enter a valid number of days.")

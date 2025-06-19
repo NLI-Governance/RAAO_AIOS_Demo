@@ -1,0 +1,36 @@
+🧠 AI Helper Robustness Roadmap (Multilingual Ready)
+------------------------------------------------------
+
+📁 Phase 1: Baseline Validation [ ]
+- [ ] Confirm FAISS index loads successfully across systems
+- [ ] Validate document chunking and embedding integrity
+- [ ] Test default response accuracy across all 10 uploaded policy files
+- [ ] Validate correct RAAO logo render on GUIs
+
+📁 Phase 2: Coverage & Comprehension [ ]
+- [ ] Identify and log known search gaps (e.g. "HIPPA", "pets")
+- [ ] Crosswalk gaps to policy files—validate if they truly exist
+- [ ] Add missing FAQs as microchunks into vector index
+- [ ] Add synonyms glossary (e.g. "HIPPA" → "HIPAA") file for override referencing
+
+📁 Phase 3: Language Flexibility (Multilingual Prep) [ ]
+- [ ] Create policy_synonyms_en.json for English
+- [ ] Plan structure for language toggling (e.g., synonyms_fr.json)
+- [ ] Validate embeddings in Spanish/French don't degrade performance
+- [ ] Add multilingual instructions per GUI page in user's selected language
+
+📁 Phase 4: GUI Integration and Testing [ ]
+- [ ] Globally inject AI helper into all employee GUIs
+- [ ] Validate microphone support + summarization options
+- [ ] Enable fallback to textual guidance if speech fails
+- [ ] Re-test GUI performance with updated multilingual assistant
+
+📁 Phase 5: Final QA, Lock, and Demo Prep [ ]
+- [ ] Print test responses to “hard” queries (HIPAA, privacy, pets)
+- [ ] QA across desktop vs MacBook for sync consistency
+- [ ] Finalize Streamlit GUI visual behavior in dark/light mode
+- [ ] Prepare multilingual toggle demo for CEO presentation
+
+📝 Notes:
+- Glossary/synonym files should be shared across AIOS and ABL
+- This roadmap supports printable checkpoints and multilingual scaling

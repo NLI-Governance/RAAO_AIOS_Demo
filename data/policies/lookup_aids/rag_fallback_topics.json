@@ -1,0 +1,152 @@
+{
+  "can i bring my dog to work": {
+    "document": "employee_handbook.pdf",
+    "section": "Section 4.5 \u2014 Pet Policy",
+    "note": "Pets are not permitted unless classified as certified service animals."
+  },
+  "what if i\u2019m late": {
+    "document": "raao_hr_manual.pdf",
+    "section": "Section 2.1 \u2014 Attendance and Punctuality",
+    "note": "Repeated tardiness may lead to disciplinary action."
+  },
+  "can i get bereavement leave": {
+    "document": "raao_hr_manual.pdf",
+    "section": "Section 3.2 \u2014 Time Off and Leave",
+    "note": "Employees may take up to 3 days for bereavement, subject to approval."
+  },
+  "do we have a dress code": {
+    "document": "raao_hr_manual.pdf",
+    "section": "Section 5.1 \u2014 Appearance and Attire",
+    "note": "Casual attire is permitted on Fridays unless otherwise directed."
+  },
+  "how do i report harassment": {
+    "document": "raao_hr_manual.pdf",
+    "section": "Section 6.4 \u2014 Harassment and Discrimination Policy",
+    "note": "Reports should be made to HR or anonymously via the ethics hotline."
+  },
+  "can i work remotely": {
+    "document": "remote_work_policy.pdf",
+    "section": "Section 1 \u2014 Eligibility and Expectations",
+    "note": "Remote work is allowed for eligible roles with prior approval."
+  },
+  "is it okay to wear jeans on friday": {
+    "document": "raao_hr_manual.pdf",
+    "section": "",
+    "note": ""
+  },
+  "can i bring my cat to the office": {
+    "document": "employee_handbook.pdf",
+    "section": "",
+    "note": ""
+  },
+  "do we have paid sick leave": {
+    "document": "raao_hr_manual.pdf",
+    "section": "",
+    "note": ""
+  },
+  "how do i request remote work": {
+    "document": "raao_hr_manual.pdf",
+    "section": "",
+    "note": ""
+  },
+  "can i bring a pet to work": {
+    "document": "employee_handbook.pdf",
+    "section": "",
+    "note": ""
+  },
+  "what happens if i forget my id badge": {
+    "document": "security_policy_manual.pdf",
+    "section": "",
+    "note": ""
+  },
+  "is there a 401(k) program": {
+    "document": "benefits_summary.pdf",
+    "section": "Section 4 \u2014 Retirement Plans",
+    "note": "RAAO offers a 401(k) plan with 3% employer match."
+  },
+  "how are performance evaluations handled": {
+    "document": "hr_manual.pdf",
+    "section": "",
+    "note": ""
+  },
+  "can i wear jeans in the office": {
+    "document": "dress_code_policy.pdf",
+    "section": "Section 2 \u2014 Casual Dress Guidelines",
+    "note": "Jeans are allowed on designated casual days if not ripped or torn."
+  },
+  "are we allowed to work from home": {
+    "document": "remote_work_policy.pdf",
+    "section": "",
+    "note": ""
+  },
+  "what qualifies for overtime pay": {
+    "document": "payroll_operations_manual.pdf",
+    "section": "",
+    "note": ""
+  },
+  "do we have a policy on personal phone use at work": {
+    "document": "employee_handbook.pdf",
+    "section": "",
+    "note": ""
+  },
+  "are masks still required in the office": {
+    "document": "covid_safety_protocols.pdf",
+    "section": "",
+    "note": ""
+  },
+  "what is the company\u2019s covid-19 policy": {
+    "document": "covid_safety_protocols.pdf",
+    "section": "",
+    "note": ""
+  },
+  "what do i do if i feel unsafe at work": {
+    "document": "workplace_safety_manual.pdf",
+    "section": "",
+    "note": ""
+  },
+  "how many paid holidays are there per year": {
+    "document": "employee_handbook.pdf",
+    "section": "",
+    "note": ""
+  },
+  "what training is required for new hires": {
+    "document": "staff_training_manual.pdf",
+    "section": "",
+    "note": ""
+  },
+  "how often are fire drills conducted": {
+    "document": "emergency_procedures_manual.pdf",
+    "section": "",
+    "note": ""
+  },
+  "what is the process for resigning": {
+    "document": "hr_manual.pdf",
+    "section": "",
+    "note": ""
+  },
+  "is there a mentoring program available": {
+    "document": "employee_handbook.pdf",
+    "section": "",
+    "note": ""
+  },
+  "how do i submit an expense report": {
+    "document": "finance_policy_guide.pdf",
+    "section": "",
+    "note": ""
+  },
+  "do i need manager approval for travel": {
+    "document": "travel_policy_manual.pdf",
+    "section": "",
+    "note": ""
+  },
+  "where can i find the employee handbook": {
+    "document": "employee_handbook.pdf",
+    "section": "",
+    "note": ""
+  },
+  "what is the procedure for workplace injuries": {
+    "document": "workplace_safety_manual.pdf",
+    "section": "",
+    "note": ""
+  }
+}

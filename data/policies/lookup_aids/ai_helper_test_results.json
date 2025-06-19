@@ -1,0 +1,517 @@
+[
+  {
+    "label": "\u274c Miss",
+    "question": "Can I wear jeans to work on Fridays?",
+    "answer": "\u26a0\ufe0f GPT fallback returned no answer"
+  },
+  {
+    "label": "\u274c Miss",
+    "question": "Is chewing gum allowed in front of clients?",
+    "answer": "\u26a0\ufe0f GPT fallback returned no answer"
+  },
+  {
+    "label": "\u274c Miss",
+    "question": "Can I work from home on Mondays?",
+    "answer": "\u26a0\ufe0f GPT fallback returned no answer"
+  },
+  {
+    "label": "\u274c Miss",
+    "question": "Are pets allowed at work?",
+    "answer": "\u26a0\ufe0f GPT fallback returned no answer"
+  },
+  {
+    "label": "\u274c Miss",
+    "question": "Can I bring my service dog to the office?",
+    "answer": "\u26a0\ufe0f GPT fallback returned no answer"
+  },
+  {
+    "label": "\u274c Miss",
+    "question": "Is it okay to post about work on social media?",
+    "answer": "\u26a0\ufe0f GPT fallback returned no answer"
+  },
+  {
+    "label": "\u274c Miss",
+    "question": "Can I save files to a USB drive?",
+    "answer": "\u26a0\ufe0f GPT fallback returned no answer"
+  },
+  {
+    "label": "\u274c Miss",
+    "question": "What is the password policy?",
+    "answer": "\u26a0\ufe0f GPT fallback returned no answer"
+  },
+  {
+    "label": "\u274c Miss",
+    "question": "How do I report workplace harassment?",
+    "answer": "\u26a0\ufe0f GPT fallback returned no answer"
+  },
+  {
+    "label": "\u274c Miss",
+    "question": "Is there a whistleblower protection policy?",
+    "answer": "\u26a0\ufe0f GPT fallback returned no answer"
+  },
+  {
+    "label": "\u274c Miss",
+    "question": "What should I do if I test positive for COVID?",
+    "answer": "\u26a0\ufe0f GPT fallback returned no answer"
+  },
+  {
+    "label": "\u274c Miss",
+    "question": "Do I need to clock in for lunch breaks?",
+    "answer": "\u26a0\ufe0f GPT fallback returned no answer"
+  },
+  {
+    "label": "\u274c Miss",
+    "question": "Can I leave early if I work 10 hours in one day?",
+    "answer": "\u26a0\ufe0f GPT fallback returned no answer"
+  },
+  {
+    "label": "\u274c Miss",
+    "question": "Can I opt out of direct deposit?",
+    "answer": "\u26a0\ufe0f GPT fallback returned no answer"
+  },
+  {
+    "label": "\u274c Miss",
+    "question": "Are mental health services covered in our benefits?",
+    "answer": "\u26a0\ufe0f GPT fallback returned no answer"
+  },
+  {
+    "label": "\u274c Miss",
+    "question": "Do part-time workers qualify for sick leave?",
+    "answer": "\u26a0\ufe0f GPT fallback returned no answer"
+  },
+  {
+    "label": "\u274c Miss",
+    "question": "Is overtime paid for weekends?",
+    "answer": "\u26a0\ufe0f GPT fallback returned no answer"
+  },
+  {
+    "label": "\u274c Miss",
+    "question": "Can I take unpaid time off?",
+    "answer": "\u26a0\ufe0f GPT fallback returned no answer"
+  },
+  {
+    "label": "\u274c Miss",
+    "question": "What happens if I'm late three times in one week?",
+    "answer": "\u26a0\ufe0f GPT fallback returned no answer"
+  },
+  {
+    "label": "\u274c Miss",
+    "question": "Are background checks required before hiring?",
+    "answer": "\u26a0\ufe0f GPT fallback returned no answer"
+  },
+  {
+    "label": "\u274c Miss",
+    "question": "Can I use personal devices at work?",
+    "answer": "\u26a0\ufe0f GPT fallback returned no answer"
+  },
+  {
+    "label": "\u274c Miss",
+    "question": "Am I allowed to use AI tools for writing reports?",
+    "answer": "\u26a0\ufe0f GPT fallback returned no answer"
+  },
+  {
+    "label": "\u274c Miss",
+    "question": "Is data encryption mandatory for all devices?",
+    "answer": "\u26a0\ufe0f GPT fallback returned no answer"
+  },
+  {
+    "label": "\u274c Miss",
+    "question": "Can I access personal email on company Wi-Fi?",
+    "answer": "\u26a0\ufe0f GPT fallback returned no answer"
+  },
+  {
+    "label": "\u274c Miss",
+    "question": "Can I forward work emails to my personal account?",
+    "answer": "\u26a0\ufe0f GPT fallback returned no answer"
+  },
+  {
+    "label": "\u274c Miss",
+    "question": "What is the company\u2019s stance on political discussions?",
+    "answer": "\u26a0\ufe0f GPT fallback returned no answer"
+  },
+  {
+    "label": "\u274c Miss",
+    "question": "Can I use the breakroom for prayer?",
+    "answer": "\u26a0\ufe0f GPT fallback returned no answer"
+  },
+  {
+    "label": "\u274c Miss",
+    "question": "Are LGBTQ+ pins allowed in the workplace?",
+    "answer": "\u26a0\ufe0f GPT fallback returned no answer"
+  },
+  {
+    "label": "\u274c Miss",
+    "question": "Can I bring my child to work occasionally?",
+    "answer": "\u26a0\ufe0f GPT fallback returned no answer"
+  },
+  {
+    "label": "\u274c Miss",
+    "question": "Do interns need to follow the dress code?",
+    "answer": "\u26a0\ufe0f GPT fallback returned no answer"
+  },
+  {
+    "label": "\u274c Miss",
+    "question": "What should I wear for a client-facing role?",
+    "answer": "\u26a0\ufe0f GPT fallback returned no answer"
+  },
+  {
+    "label": "\u274c Miss",
+    "question": "Is there a specific dress code for Zoom calls?",
+    "answer": "\u26a0\ufe0f GPT fallback returned no answer"
+  },
+  {
+    "label": "\u274c Miss",
+    "question": "Can tattoos be visible at work?",
+    "answer": "\u26a0\ufe0f GPT fallback returned no answer"
+  },
+  {
+    "label": "\u274c Miss",
+    "question": "Are shorts allowed during summer months?",
+    "answer": "\u26a0\ufe0f GPT fallback returned no answer"
+  },
+  {
+    "label": "\u274c Miss",
+    "question": "Is nail polish acceptable in front-line roles?",
+    "answer": "\u26a0\ufe0f GPT fallback returned no answer"
+  },
+  {
+    "label": "\u274c Miss",
+    "question": "What if I forget my badge at home?",
+    "answer": "\u26a0\ufe0f GPT fallback returned no answer"
+  },
+  {
+    "label": "\u274c Miss",
+    "question": "Can I wear headphones while working?",
+    "answer": "\u26a0\ufe0f GPT fallback returned no answer"
+  },
+  {
+    "label": "\u274c Miss",
+    "question": "Are personal phone calls allowed during breaks?",
+    "answer": "\u26a0\ufe0f GPT fallback returned no answer"
+  },
+  {
+    "label": "\u274c Miss",
+    "question": "Is smoking allowed in the parking lot?",
+    "answer": "\u26a0\ufe0f GPT fallback returned no answer"
+  },
+  {
+    "label": "\u274c Miss",
+    "question": "Can I store food in my desk?",
+    "answer": "\u26a0\ufe0f GPT fallback returned no answer"
+  },
+  {
+    "label": "\u274c Miss",
+    "question": "Are there consequences for gossiping?",
+    "answer": "\u26a0\ufe0f GPT fallback returned no answer"
+  },
+  {
+    "label": "\u274c Miss",
+    "question": "Can I decorate my cubicle?",
+    "answer": "\u26a0\ufe0f GPT fallback returned no answer"
+  },
+  {
+    "label": "\u274c Miss",
+    "question": "Are political posters allowed in shared spaces?",
+    "answer": "\u26a0\ufe0f GPT fallback returned no answer"
+  },
+  {
+    "label": "\u274c Miss",
+    "question": "Do I need approval for secondary employment?",
+    "answer": "\u26a0\ufe0f GPT fallback returned no answer"
+  },
+  {
+    "label": "\u274c Miss",
+    "question": "What if my coworker makes offensive jokes?",
+    "answer": "\u26a0\ufe0f GPT fallback returned no answer"
+  },
+  {
+    "label": "\u274c Miss",
+    "question": "Is training required for new equipment?",
+    "answer": "\u26a0\ufe0f GPT fallback returned no answer"
+  },
+  {
+    "label": "\u274c Miss",
+    "question": "Can I leave the building during lunch breaks?",
+    "answer": "\u26a0\ufe0f GPT fallback returned no answer"
+  },
+  {
+    "label": "\u274c Miss",
+    "question": "Can I clock in remotely?",
+    "answer": "\u26a0\ufe0f GPT fallback returned no answer"
+  },
+  {
+    "label": "\u274c Miss",
+    "question": "Do I need approval for vacation time?",
+    "answer": "\u26a0\ufe0f GPT fallback returned no answer"
+  },
+  {
+    "label": "\u274c Miss",
+    "question": "How is PTO accrued?",
+    "answer": "\u26a0\ufe0f GPT fallback returned no answer"
+  },
+  {
+    "label": "\u274c Miss",
+    "question": "Can supervisors change my schedule last minute?",
+    "answer": "\u26a0\ufe0f GPT fallback returned no answer"
+  },
+  {
+    "label": "\u274c Miss",
+    "question": "What\u2019s the dress code during company events?",
+    "answer": "\u26a0\ufe0f GPT fallback returned no answer"
+  },
+  {
+    "label": "\u274c Miss",
+    "question": "Are paychecks biweekly or monthly?",
+    "answer": "\u26a0\ufe0f GPT fallback returned no answer"
+  },
+  {
+    "label": "\u274c Miss",
+    "question": "Can I request a payroll advance?",
+    "answer": "\u26a0\ufe0f GPT fallback returned no answer"
+  },
+  {
+    "label": "\u274c Miss",
+    "question": "Do contractors follow the same safety rules?",
+    "answer": "\u26a0\ufe0f GPT fallback returned no answer"
+  },
+  {
+    "label": "\u274c Miss",
+    "question": "Can I work remotely while traveling abroad?",
+    "answer": "\u26a0\ufe0f GPT fallback returned no answer"
+  },
+  {
+    "label": "\u274c Miss",
+    "question": "Is my browsing history monitored?",
+    "answer": "\u26a0\ufe0f GPT fallback returned no answer"
+  },
+  {
+    "label": "\u274c Miss",
+    "question": "Do I need to log off at the end of each day?",
+    "answer": "\u26a0\ufe0f GPT fallback returned no answer"
+  },
+  {
+    "label": "\u274c Miss",
+    "question": "Can I lend my ID badge to a coworker?",
+    "answer": "\u26a0\ufe0f GPT fallback returned no answer"
+  },
+  {
+    "label": "\u274c Miss",
+    "question": "What do I do if I spill coffee on my keyboard?",
+    "answer": "\u26a0\ufe0f GPT fallback returned no answer"
+  },
+  {
+    "label": "\u274c Miss",
+    "question": "Can I request ergonomic equipment?",
+    "answer": "\u26a0\ufe0f GPT fallback returned no answer"
+  },
+  {
+    "label": "\u274c Miss",
+    "question": "What\u2019s the policy on workplace dating?",
+    "answer": "\u26a0\ufe0f GPT fallback returned no answer"
+  },
+  {
+    "label": "\u274c Miss",
+    "question": "Are jokes in email signatures allowed?",
+    "answer": "\u26a0\ufe0f GPT fallback returned no answer"
+  },
+  {
+    "label": "\u274c Miss",
+    "question": "Do I need to attend all-staff meetings?",
+    "answer": "\u26a0\ufe0f GPT fallback returned no answer"
+  },
+  {
+    "label": "\u274c Miss",
+    "question": "Is participation in wellness programs mandatory?",
+    "answer": "\u26a0\ufe0f GPT fallback returned no answer"
+  },
+  {
+    "label": "\u274c Miss",
+    "question": "Can I opt out of health insurance?",
+    "answer": "\u26a0\ufe0f GPT fallback returned no answer"
+  },
+  {
+    "label": "\u274c Miss",
+    "question": "Is there dental coverage?",
+    "answer": "\u26a0\ufe0f GPT fallback returned no answer"
+  },
+  {
+    "label": "\u274c Miss",
+    "question": "Can I claim mileage reimbursement?",
+    "answer": "\u26a0\ufe0f GPT fallback returned no answer"
+  },
+  {
+    "label": "\u274c Miss",
+    "question": "Do I need to report side income?",
+    "answer": "\u26a0\ufe0f GPT fallback returned no answer"
+  },
+  {
+    "label": "\u274c Miss",
+    "question": "Is breastfeeding support available?",
+    "answer": "\u26a0\ufe0f GPT fallback returned no answer"
+  },
+  {
+    "label": "\u274c Miss",
+    "question": "Are there gender-neutral restrooms?",
+    "answer": "\u26a0\ufe0f GPT fallback returned no answer"
+  },
+  {
+    "label": "\u274c Miss",
+    "question": "What if I\u2019m injured on the job?",
+    "answer": "\u26a0\ufe0f GPT fallback returned no answer"
+  },
+  {
+    "label": "\u274c Miss",
+    "question": "Can I take a personal day without notice?",
+    "answer": "\u26a0\ufe0f GPT fallback returned no answer"
+  },
+  {
+    "label": "\u274c Miss",
+    "question": "Are salaries confidential?",
+    "answer": "\u26a0\ufe0f GPT fallback returned no answer"
+  },
+  {
+    "label": "\u274c Miss",
+    "question": "Is tipping clients allowed?",
+    "answer": "\u26a0\ufe0f GPT fallback returned no answer"
+  },
+  {
+    "label": "\u274c Miss",
+    "question": "Can I ask about a coworker's religion?",
+    "answer": "\u26a0\ufe0f GPT fallback returned no answer"
+  },
+  {
+    "label": "\u274c Miss",
+    "question": "Can I wear religious headwear?",
+    "answer": "\u26a0\ufe0f GPT fallback returned no answer"
+  },
+  {
+    "label": "\u274c Miss",
+    "question": "Are political conversations allowed?",
+    "answer": "\u26a0\ufe0f GPT fallback returned no answer"
+  },
+  {
+    "label": "\u274c Miss",
+    "question": "What\u2019s the policy on confidentiality?",
+    "answer": "\u26a0\ufe0f GPT fallback returned no answer"
+  },
+  {
+    "label": "\u274c Miss",
+    "question": "Can I record meetings?",
+    "answer": "\u26a0\ufe0f GPT fallback returned no answer"
+  },
+  {
+    "label": "\u274c Miss",
+    "question": "Is job sharing allowed?",
+    "answer": "\u26a0\ufe0f GPT fallback returned no answer"
+  },
+  {
+    "label": "\u274c Miss",
+    "question": "Do I get paid for jury duty?",
+    "answer": "\u26a0\ufe0f GPT fallback returned no answer"
+  },
+  {
+    "label": "\u274c Miss",
+    "question": "What if I need to care for a sick parent?",
+    "answer": "\u26a0\ufe0f GPT fallback returned no answer"
+  },
+  {
+    "label": "\u274c Miss",
+    "question": "Can I change my benefit elections mid-year?",
+    "answer": "\u26a0\ufe0f GPT fallback returned no answer"
+  },
+  {
+    "label": "\u274c Miss",
+    "question": "Are holidays paid time off?",
+    "answer": "\u26a0\ufe0f GPT fallback returned no answer"
+  },
+  {
+    "label": "\u274c Miss",
+    "question": "What happens to unused PTO?",
+    "answer": "\u26a0\ufe0f GPT fallback returned no answer"
+  },
+  {
+    "label": "\u274c Miss",
+    "question": "Is relocation assistance available?",
+    "answer": "\u26a0\ufe0f GPT fallback returned no answer"
+  },
+  {
+    "label": "\u274c Miss",
+    "question": "Can I negotiate my salary after a year?",
+    "answer": "\u26a0\ufe0f GPT fallback returned no answer"
+  },
+  {
+    "label": "\u274c Miss",
+    "question": "Can I get a raise without a promotion?",
+    "answer": "\u26a0\ufe0f GPT fallback returned no answer"
+  },
+  {
+    "label": "\u274c Miss",
+    "question": "Are exit interviews required?",
+    "answer": "\u26a0\ufe0f GPT fallback returned no answer"
+  },
+  {
+    "label": "\u274c Miss",
+    "question": "Can I be rehired after quitting?",
+    "answer": "\u26a0\ufe0f GPT fallback returned no answer"
+  },
+  {
+    "label": "\u274c Miss",
+    "question": "Is attendance tracked daily?",
+    "answer": "\u26a0\ufe0f GPT fallback returned no answer"
+  },
+  {
+    "label": "\u274c Miss",
+    "question": "Do we get floating holidays?",
+    "answer": "\u26a0\ufe0f GPT fallback returned no answer"
+  },
+  {
+    "label": "\u274c Miss",
+    "question": "Can I shadow someone in another department?",
+    "answer": "\u26a0\ufe0f GPT fallback returned no answer"
+  },
+  {
+    "label": "\u274c Miss",
+    "question": "Can I use sick time for doctor\u2019s appointments?",
+    "answer": "\u26a0\ufe0f GPT fallback returned no answer"
+  },
+  {
+    "label": "\u274c Miss",
+    "question": "Are there quiet rooms available?",
+    "answer": "\u26a0\ufe0f GPT fallback returned no answer"
+  },
+  {
+    "label": "\u274c Miss",
+    "question": "Can I donate my PTO to a coworker?",
+    "answer": "\u26a0\ufe0f GPT fallback returned no answer"
+  },
+  {
+    "label": "\u274c Miss",
+    "question": "Are we reimbursed for uniforms?",
+    "answer": "\u26a0\ufe0f GPT fallback returned no answer"
+  },
+  {
+    "label": "\u274c Miss",
+    "question": "Can I wear sandals in the office?",
+    "answer": "\u26a0\ufe0f GPT fallback returned no answer"
+  },
+  {
+    "label": "\u274c Miss",
+    "question": "Do employees vote on policy changes?",
+    "answer": "\u26a0\ufe0f GPT fallback returned no answer"
+  },
+  {
+    "label": "\u274c Miss",
+    "question": "Can I appeal a write-up?",
+    "answer": "\u26a0\ufe0f GPT fallback returned no answer"
+  },
+  {
+    "label": "\u274c Miss",
+    "question": "Can I volunteer during work hours?",
+    "answer": "\u26a0\ufe0f GPT fallback returned no answer"
+  },
+  {
+    "label": "\u274c Miss",
+    "question": "What\u2019s the policy on swearing at work?",
+    "answer": "\u26a0\ufe0f GPT fallback returned no answer"
+  }
+]

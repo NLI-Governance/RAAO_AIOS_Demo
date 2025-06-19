@@ -1,0 +1,27 @@
+{
+  "hipaa": {
+    "en": ["hipaa", "hippa", "health privacy", "medical confidentiality"],
+    "es": ["hipaa", "privacidad de salud", "confidencialidad médica"],
+    "fr": ["hipaa", "confidentialité santé", "confidentialité médicale"]
+  },
+  "receipts": {
+    "en": ["receipt", "receipts", "proof of purchase", "expense documentation"],
+    "es": ["recibo", "recibos", "comprobante de compra", "documentación de gastos"],
+    "fr": ["reçu", "reçus", "preuve d'achat", "justificatif de dépense"]
+  },
+  "pets": {
+    "en": ["pets", "animals", "dog", "cat", "pet policy"],
+    "es": ["mascotas", "animales", "perro", "gato", "política de mascotas"],
+    "fr": ["animaux", "animaux de compagnie", "chien", "chat", "politique sur les animaux"]
+  },
+  "ethics": {
+    "en": ["ethics", "ethical standards", "conduct", "code of ethics"],
+    "es": ["ética", "normas éticas", "conducta", "código de ética"],
+    "fr": ["éthique", "normes éthiques", "conduite", "code d'éthique"]
+  },
+  "loitering": {
+    "en": ["loitering", "hanging around", "not working", "idling"],
+    "es": ["merodear", "vagar", "no trabajar", "holgazanear"],
+    "fr": ["traîner", "flâner", "ne pas travailler", "paresser"]
+  }
+}

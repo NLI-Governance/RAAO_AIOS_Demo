@@ -1,0 +1,204 @@
+{
+  "raao_policies": [
+    {
+      "question": "What is the purpose of the AI System Governance Charter?",
+      "answer": "The purpose of the charter is to establish clear governance practices for the use, oversight, and ethical operation of the Adaptive Intelligent Operating System (AIOS) at RAAO. It outlines responsibilities, accountability, data management, and review processes to ensure the AI system aligns with RAAO\u2019s mission and compliance obligations."
+    },
+    {
+      "question": "What are the key roles and responsibilities in AI governance at RAAO?",
+      "answer": "The CEO ensures AI usage aligns with organizational strategy and legal compliance. The Board of Directors approves policies, receives reports, and provides fiduciary oversight. The AI Officer maintains AI model integrity, ensures security patches and performance updates, and reviews system feedback and risk alerts. Department Leads ensure their team uses AI ethically and effectively, flag concerns or misuse, and participate in AI feedback sessions."
+    },
+    {
+      "question": "What are the guidelines for data governance and security?",
+      "answer": "All AI-accessed data must follow HIPAA, IRS 501(c)(3), and grantor compliance. AI may read organizational data, but does not store or export outside authorized storage. User access is role-based and monitored through automated logs."
+    },
+    {
+      "question": "What are the oversight procedures?",
+      "answer": "There are quarterly AI Oversight Reviews which include log review, policy alignment check, and user feedback session. There is also an Incident Response Protocol for flagged events like unauthorized access attempts, which are reviewed by the AI Officer and Executive Team, and responses are logged and archived."
+    },
+    {
+      "question": "What are the guidelines for ethical AI use?",
+      "answer": "AI should always support human decision-making, not replace it. Staff must never rely solely on AI for critical compliance determinations without review. All AI use must be documented when related to grant reporting, financial reviews, or public communication."
+    },
+    {
+      "question": "What is the purpose of the RAAO Data Privacy & Cybersecurity Manual?",
+      "answer": "The manual establishes RAAO\u2019s policies and procedures for securing sensitive data, preventing cybersecurity threats, and ensuring compliance with privacy laws. It also details the use of AI-powered security measures to automate compliance tracking, detect unauthorized access, and prevent data breaches."
+    },
+    {
+      "question": "What standards does RAAO comply with for data governance?",
+      "answer": "RAAO complies with HIPAA, GDPR, and IRS nonprofit data governance regulations. This includes AI-enhanced encryption and access controls for sensitive records, strict confidentiality policies for client, employee, and financial data, and automated compliance tracking to detect and mitigate data risks."
+    },
+    {
+      "question": "Who is responsible for data protection and oversight at RAAO?",
+      "answer": "The Board of Directors and Compliance Officers ensure legal and ethical data protection. Executive Leadership and the IT Security Team oversee the cybersecurity infrastructure and data management. AI-Powered Compliance Monitoring is also used to flag unauthorized access and detect security risks."
+    },
+    {
+      "question": "What measures are taken for client data protection and privacy compliance?",
+      "answer": "RAAO complies with HIPAA, GDPR, and Nonprofit Privacy Law. They use AI-Enabled Client Record Management for secure access, have confidentiality agreements, and data sharing restrictions."
+    },
+    {
+      "question": "What are the cybersecurity protocols for IT infrastructure?",
+      "answer": "RAAO uses AI-Powered Network Security and Intrusion Detection, Firewall, Antivirus, and Threat Prevention Systems. They also have Cloud Security Policies and Remote Work Safeguards."
+    },
+    {
+      "question": "What is the purpose of the Financial Operations Handbook?",
+      "answer": "The handbook outlines RAAO\u2019s financial policies, procedures, and compliance standards, ensuring transparency, fiscal responsibility, and legal compliance. It provides step-by-step instructions for staff handling financial transactions, grants, payroll, and procurement."
+    },
+    {
+      "question": "What standards does RAAO adhere to for financial compliance?",
+      "answer": "RAAO adheres to Generally Accepted Accounting Principles (GAAP), IRS 501(c)(3) requirements, and federal/state nonprofit financial laws."
+    },
+    {
+      "question": "What role does AI play in RAAO's financial operations?",
+      "answer": "AI-powered financial tools are used to ensure accurate reporting, risk monitoring, and automated compliance tracking."
+    },
+    {
+      "question": "Who is responsible for financial oversight at RAAO?",
+      "answer": "The Board of Directors reviews and approves annual budgets, major financial decisions, and audit findings. The Executive Director & Accounting Manager ensure financial compliance, oversee budgeting, and approve expenditures. The Finance Team & Bookkeeper manage daily accounting operations, track grants, and maintain accurate records."
+    },
+    {
+      "question": "What are the next steps after reviewing the Financial Operations Handbook?",
+      "answer": "The next steps are to review for accuracy and alignment with nonprofit financial regulations and assign the document accordingly."
+    },
+    {
+      "question": "What is the purpose of the HR & Volunteer Management Manual?",
+      "answer": "The manual provides RAAO\u2019s HR policies, procedures, and volunteer management protocols, ensuring compliance with federal, state, and nonprofit labor laws. It also outlines the use of AI-driven HR tools for recruitment, payroll accuracy, compliance tracking, and volunteer coordination."
+    },
+    {
+      "question": "What are the key areas of focus for HR Compliance & Ethical Standards at RAAO?",
+      "answer": "Key areas include AI-based employee screening & onboarding for fair hiring practices, strict workplace ethics & non-discrimination policies for an inclusive work environment, and automated HR compliance tracking to prevent labor law violations."
+    },
+    {
+      "question": "Who is responsible for the approval and oversight of HR policies at RAAO?",
+      "answer": "The Board of Directors approves HR policies, salary structures, and legal compliance strategies. The Executive Director & HR Team oversee employee & volunteer management, payroll, and compliance. The Finance & Compliance Team ensures adherence to payroll & labor laws. AI-Driven HR Monitoring tracks workforce compliance, automates reporting, and flags risk factors."
+    },
+    {
+      "question": "What role does AI play in HR and Volunteer Management at RAAO?",
+      "answer": "AI is used in several ways including employee screening & onboarding, HR compliance tracking, and workforce compliance monitoring. It also enhances recruitment, payroll accuracy, compliance tracking, and volunteer coordination."
+    },
+    {
+      "question": "What are the next steps after the HR & Volunteer Management Manual is drafted?",
+      "answer": "The next steps include reviewing the manual for accuracy and alignment with HR & labor law compliance, and assigning document control tracking before submission."
+    },
+    {
+      "question": "What are the key legal requirements for RAAO's mail services?",
+      "answer": "RAAO's mail services must comply with IRS 501(c)(3) nonprofit tax-exempt regulations, USPS guidelines for nonprofit mail services, and state and local mail handling laws."
+    },
+    {
+      "question": "How does RAAO prevent misuse of mail services?",
+      "answer": "RAAO uses AI-driven fraud detection mechanisms to monitor mail retrieval patterns, verify client identity, prevent fraudulent use by unauthorized individuals, and automate compliance tracking."
+    },
+    {
+      "question": "What is the role of the mailroom staff in fraud prevention?",
+      "answer": "Mailroom staff are trained to identify signs of fraud and report suspicious activity to the compliance team."
+    },
+    {
+      "question": "How does RAAO ensure compliance with state and local mail handling laws?",
+      "answer": "RAAO ensures compliance with state and local mail handling laws through ongoing monitoring and legal consultation."
+    },
+    {
+      "question": "What are the USPS regulations that RAAO follows?",
+      "answer": "RAAO follows USPS guidelines regarding mail processing, secure storage, and recipient authorization."
+    },
+    {
+      "question": "What is the purpose of the RAAO Policy\u2013AI Workflow Alignment Summary?",
+      "answer": "The document outlines how RAAO\u2019s existing policies and procedures are being actively supported, enforced, or enhanced by the Adaptive Intelligent Operating System (AIOS). It serves as a bridge between traditional governance documentation and real-time, AI-supported workflows."
+    },
+    {
+      "question": "How does the AI support the Financial Tracking & Reimbursement policy area?",
+      "answer": "The AI auto-tags receipts, alerts out-of-policy spending, and generates monthly grant reports."
+    },
+    {
+      "question": "What is the resulting benefit of AI support in HR Onboarding?",
+      "answer": "The AI minimizes onboarding delays and standardizes the experience."
+    },
+    {
+      "question": "How does the AI assist in HIPAA/Confidentiality Handling?",
+      "answer": "The AI monitors document access and alerts if non-authorized access is attempted."
+    },
+    {
+      "question": "What is the benefit of AI in Incident Reporting?",
+      "answer": "The AI reduces risk and ensures documentation of all incidents."
+    },
+    {
+      "question": "What is the purpose of RAAO's procurement and vendor guidelines?",
+      "answer": "The purpose of RAAO's procurement and vendor guidelines is to outline the organization's procurement procedures and vendor management policies, ensuring compliance with state, federal, and nonprofit grant requirements. It also includes AI-driven monitoring to enhance vendor selection, expense tracking, and fraud detection."
+    },
+    {
+      "question": "What are the key roles in RAAO's procurement process?",
+      "answer": "The key roles in RAAO's procurement process include the Board of Directors who approve high-value contracts and ensure ethical procurement compliance, the Executive Director & Procurement Team who manage vendor selection, monitor contracts, and approve purchases, and the Finance & Compliance Team who conduct audits, review expenses, and ensure procurement integrity. AI-Driven Procurement Monitoring is also used to track spending, flag risks, and generate real-time compliance reports."
+    },
+    {
+      "question": "What standards does RAAO adhere to in its procurement process?",
+      "answer": "RAAO adheres to IRS 501(c)(3) regulations for nonprofit purchasing, federal & state grant requirements for ethical vendor selection, and uses AI-powered fraud prevention tools to monitor transactions and flag anomalies."
+    },
+    {
+      "question": "What is the role of AI in RAAO's procurement process?",
+      "answer": "AI plays a significant role in RAAO's procurement process. It is used for vendor selection, expense tracking, fraud detection, risk flagging, and generating real-time compliance reports."
+    },
+    {
+      "question": "What are the components of RAAO's vendor management?",
+      "answer": "RAAO's vendor management includes vendor selection, contract monitoring, purchase approval, and AI-based performance tracking and risk assessment."
+    },
+    {
+      "question": "What is the purpose of the Risk Management & Crisis Response Manual?",
+      "answer": "The manual defines RAAO\u2019s risk management strategies, crisis response protocols, and compliance standards, ensuring that all departments are prepared for financial, operational, and security risks. It also includes the use of AI-powered risk detection tools for fraud prevention, compliance tracking, and emergency response."
+    },
+    {
+      "question": "What laws does RAAO comply with?",
+      "answer": "RAAO complies with federal nonprofit governance laws, IRS 501(c)(3) financial regulations, OSHA workplace safety mandates, and state-specific legal requirements. AI-driven monitoring assists in ensuring compliance and generating real-time risk reports."
+    },
+    {
+      "question": "Who is responsible for oversight and approval within RAAO?",
+      "answer": "The Board of Directors oversees risk mitigation strategies and legal compliance. The Executive Director & Risk Management Team develop policies, conduct risk assessments, and ensure preparedness. The Finance & IT Security Teams manage fraud prevention, data security, and financial risk oversight. AI-Powered Risk Monitoring flags irregularities."
+    },
+    {
+      "question": "What is the role of AI in RAAO's risk management?",
+      "answer": "AI plays a significant role in RAAO's risk management. It powers risk detection tools for fraud prevention, compliance tracking, and emergency response. It also assists in monitoring compliance with laws and generating real-time risk reports."
+    },
+    {
+      "question": "What types of risks are addressed in the manual?",
+      "answer": "The manual addresses financial, operational, and security risks. It also includes strategies for fraud prevention, data security, and emergency response."
+    },
+    {
+      "question": "What is the purpose of the RAAO SOP Manual?",
+      "answer": "The RAAO SOP Manual outlines the day-to-day procedures RAAO staff follow across key functional areas to promote consistency, accuracy, and compliance."
+    },
+    {
+      "question": "What are the components of each SOP?",
+      "answer": "Each SOP includes the purpose of the procedure, step-by-step tasks, roles responsible, systems/tools involved, and related policy reference."
+    },
+    {
+      "question": "What is the procedure for processing expense reimbursements?",
+      "answer": "Staff completes a digital expense form and uploads receipts, an AI system tags the expense category and links it to the appropriate grant, a supervisor reviews and submits to the Accounting Manager, and reimbursement is issued within 10 business days."
+    },
+    {
+      "question": "What is the purpose and procedure of the New Client Intake SOP?",
+      "answer": "The purpose is to establish consistent documentation and eligibility verification. The procedure involves intake staff completing a digital form and uploading ID, an AI checking for duplicates or missing documents, and a client file being created and assigned to a Case Manager."
+    },
+    {
+      "question": "What are the next steps for the RAAO SOP Manual?",
+      "answer": "The next steps are to expand with SOPs for HR, Volunteer Coordination, and Emergency Procedures in the next version."
+    },
+    {
+      "question": "What are the main sections of the RAAO Staff Training Manual?",
+      "answer": "The main sections are: Introduction & Organizational Overview, Employee Roles & Responsibilities, AI-Integrated Workflows, Job-Specific Training Modules, Daily Workflows & Procedures, Technology & Systems Training, HR Policies & Professional Development, Compliance & Risk Management, Volunteer & Community Engagement, and Appendix & Resource Materials."
+    },
+    {
+      "question": "What types of checklists and forms are included in the Appendix & Resource Materials?",
+      "answer": "The Appendix & Resource Materials include onboarding checklists, supervisor\u2019s 30/60/90-day performance review forms, job-specific task competency checklists, volunteer orientation sign-off form, and AI system usage comfort scale self-assessment."
+    },
+    {
+      "question": "What guides are provided for the AI System?",
+      "answer": "Guides provided for the AI System include how to log in and access the dashboard, common prompts by role, how to escalate a flagged issue, and reviewing AI-generated reports for accuracy."
+    },
+    {
+      "question": "What compliance and legal reference materials are included?",
+      "answer": "The compliance and legal reference materials include a confidentiality & HIPAA compliance guide, IRS 501(c)(3) summary for staff awareness, WVHA and HRSA grant compliance cheat sheets, and a whistleblower policy summary card."
+    },
+    {
+      "question": "Who should be contacted for AI/IT Support?",
+      "answer": "For AI/IT Support, contact ai.support@raao.org."
+    }
+  ]
+}

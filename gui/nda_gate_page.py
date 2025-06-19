@@ -1,15 +1,29 @@
 import streamlit as st
 
-def main():
-    st.set_page_config(page_title="Confidential Preview Access", layout="centered")
+st.set_page_config(
+    page_title="Confidential Access Agreement",
+    page_icon="🛡️",
+    layout="centered"
+)
 
-    st.markdown("""
-        <h1 style='text-align: center;'>🛡️ Confidential Access Agreement</h1>
-        <p style='text-align: center;'>This system is protected under a Non-Disclosure Agreement (NDA). To continue, you must accept the confidentiality terms.</p>
-    """, unsafe_allow_html=True)
+# --- HEADER ---
+st.markdown("## 🛡️ Confidential Access Agreement")
+st.markdown("""
+This system is protected under a Non-Disclosure Agreement (NDA).  
+To continue, you must accept the confidentiality terms.
+""")
 
-    if st.button("✅ I Agree – Enter System"):
-        st.switch_page("navigation_menu_gui.py")
+# --- FORM ---
+with st.form("nda_form"):
+    agree = st.checkbox("✅ I Agree – Enter System")
+    submitted = st.form_submit_button("Enter System")
 
-if __name__ == "__main__":
-    main()
+    if submitted:
+        if agree:
+            try:
+                st.switch_page("pages/navigation_menu_gui.py")
+            except Exception as e:
+                st.error("Navigation failed. Please contact the system administrator.")
+                st.stop()
+        else:
+            st.warning("You must agree to the confidentiality terms to proceed.")

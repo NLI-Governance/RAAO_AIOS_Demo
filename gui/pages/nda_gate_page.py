@@ -1,28 +1,21 @@
 import streamlit as st
 
+st.set_page_config(page_title="Confidential Access Agreement", layout="centered")
+
 def main():
     st.markdown(
         """
-        <style>
-            .stButton>button {
-                color: white;
-                background-color: #FF4B4B;
-                font-size: 1.2em;
-                padding: 0.5em 1em;
-            }
-        </style>
+        <h1 style='text-align: center; color: white;'>🛡️ Confidential Access Agreement</h1>
+        <p style='text-align: center; font-size: 18px;'>This system is protected under a Non-Disclosure Agreement (NDA). To continue, you must accept the confidentiality terms.</p>
         """,
-        unsafe_allow_html=True
+        unsafe_allow_html=True,
     )
 
-    st.title("🛡️ Confidential Access Agreement")
-    st.write("This system is protected under a Non-Disclosure Agreement (NDA). To continue, you must accept the confidentiality terms.")
+    agree = st.checkbox("✅ I Agree – Enter System")
 
-    agreed = st.checkbox("✅ I Agree – Enter System")
-
-    if agreed:
+    if agree:
         if st.button("Enter System"):
-            st.switch_page("navigation_menu_gui.py")
+            st.switch_page("navigation_menu_gui")  # ✅ Must match label from GUI file
 
 if __name__ == "__main__":
     main()

@@ -1,27 +1,25 @@
-# ~/Dropbox/EI_Cloud/ABL_Rev2_6_1_25/gui/nda_gate_page.py
-
 import streamlit as st
 
+st.set_page_config(
+    page_title="Confidential Access Agreement",
+    page_icon="🛡️",
+    layout="centered"
+)
+
 def main():
-    st.set_page_config(
-        page_title="Confidential Access Agreement",
-        layout="centered"
-    )
-
+    st.markdown("## 🛡️ Confidential Access Agreement")
     st.markdown(
-        "<h1 style='text-align: center; color: white;'>🔒 Confidential Access Agreement</h1>",
-        unsafe_allow_html=True
+        """
+        This system is protected under a Non-Disclosure Agreement (NDA).
+        To continue, you must accept the confidentiality terms.
+        """
     )
-
-    st.write("This system is protected under a Non-Disclosure Agreement (NDA). "
-             "To continue, you must accept the confidentiality terms.")
 
     agree = st.checkbox("✅ I Agree – Enter System")
 
     if agree:
         if st.button("Enter System"):
-            # ✅ Corrected path relative to gui/
-            st.switch_page("../pages/navigation_menu_gui.py")
+            st.switch_page("navigation_menu_gui.py")  # No folder prefix
 
 if __name__ == "__main__":
     main()

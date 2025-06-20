@@ -8,10 +8,11 @@ def main():
         "This system is protected under a Non-Disclosure Agreement (NDA). "
         "To continue, you must accept the confidentiality terms."
     )
+
     agree = st.checkbox("✅ I Agree – Enter System")
 
     if agree:
-        st.switch_page("navigation_menu_gui.py")  # ✅ Must be exact filename
+        st.switch_page("Navigation Menu GUI")  # ✅ Must match exact page label
 
 if __name__ == "__main__":
     main()

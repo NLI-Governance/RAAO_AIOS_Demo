@@ -16,10 +16,10 @@ st.title("Navigation Menu")
 
 st.markdown("Use the button below to navigate to the Employee Application module.")
 
-# ✅ This label must exactly match the sidebar name
+# ✅ Must match Streamlit's sidebar label exactly
 if st.button("📋 Employee Application"):
-    st.switch_page("Employee Application Gui")
+    st.switch_page("Employee Application GUI")
 
 display_assistant_shell()
 display_abl_footer()
-display_gui_version("navigation_menu_gui.py", "v1.0-test")
+display_gui_version("navigation_menu_gui.py", "v1.0-final")

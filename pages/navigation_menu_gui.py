@@ -18,7 +18,7 @@ st.markdown("Use the button below to navigate to the Employee Application module
 
 # ✅ Must match Streamlit's sidebar label exactly (title-cased)
 if st.button("📋 Employee Application"):
-    st.switch_page("Employee Application Gui")
+    st.switch_page("employee application gui")
 
 display_assistant_shell()
 display_abl_footer()

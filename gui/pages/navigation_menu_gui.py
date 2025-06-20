@@ -1,29 +1,30 @@
+import sys
 import streamlit as st
 
-st.set_page_config(page_title="Navigation Menu", layout="wide")
+# Extend path to locate shared components from the tools directory
+sys.path.append("/Users/timothygriffin/Dropbox/EI_Cloud/ABL_Rev2_6_1_25/tools/")
 
-def main():
-    st.title("📁 AIOS Navigation Menu")
-    st.markdown("Use this dashboard to explore available RAAO system modules.")
-    
-    st.markdown("---")
+from shared_ui_components import (
+    display_logo,
+    display_abl_footer,
+    display_language_toggle_button,
+    display_assistant_shell
+)
 
-    col1, col2 = st.columns(2)
+st.set_page_config(page_title="Navigation Menu")
 
-    with col1:
-        st.subheader("HR Modules")
-        st.button("🧍 Employee Application")
-        st.button("📋 Training Tracker")
-        st.button("📝 Disciplinary Log")
+display_logo()
+display_language_toggle_button()
 
-    with col2:
-        st.subheader("Grants & Programs")
-        st.button("💸 Grant Funding Code Manager")
-        st.button("📊 Grant Tracker")
-        st.button("🧠 AI Policy Assistant")
+st.title("Navigation Menu")
 
-    st.markdown("---")
-    st.markdown("⚙️ Admin access available in footer panel.")
+# Example navigation buttons (can be customized)
+if st.button("Employee Application"):
+    st.switch_page("employee_application_gui.py")
+if st.button("Training Tracker"):
+    st.switch_page("training_tracker_gui.py")
+if st.button("Disciplinary Actions"):
+    st.switch_page("disciplinary_actions_gui.py")
 
-if __name__ == "__main__":
-    main()
+display_assistant_shell()
+display_abl_footer()

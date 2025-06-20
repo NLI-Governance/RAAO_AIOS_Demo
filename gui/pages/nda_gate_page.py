@@ -19,7 +19,7 @@ st.markdown("This system is protected under a Non-Disclosure Agreement (NDA). To
 agree = st.checkbox("✅ I Agree – Enter System")
 if agree:
     st.success("Access granted. Redirecting...")
-    st.switch_page("gui/pages/navigation_menu_gui.py")
+    st.switch_page("Navigation Menu")  # ✅ Cloud requires page_title, not filename
 
 display_assistant_shell()
 display_abl_footer()

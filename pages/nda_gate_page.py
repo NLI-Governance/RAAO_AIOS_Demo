@@ -1,19 +1,36 @@
 import streamlit as st
-from components.shared_ui_components import display_logo, display_abl_footer
+from components.shared_ui_components import (
+    display_logo,
+    display_language_selector,
+    display_about_section,
+    display_assistant_panel,
+    display_abl_footer
+)
 
 st.set_page_config(page_title="NDA Gate", layout="wide")
+
 display_logo()
-st.selectbox("🌐 Language", ["English", "Español", "Français"])
+display_language_selector()
+display_about_section("You must agree to the terms of the Non-Disclosure Agreement (NDA) to continue into the system.")
 
-st.title("Non-Disclosure Agreement")
-st.info("By accessing this system, you agree to maintain the confidentiality of all internal data, client information, and proprietary materials.")
+st.title("🔐 Non-Disclosure Agreement (NDA)")
 
-confirm = st.checkbox("✅ I have read and agree to the NDA terms.")
+nda_text = """
+By entering the Rising Against All Odds system, you agree to maintain the confidentiality of all personal data, internal documents,
+training materials, grant submissions, and strategic operations. Sharing or misuse of this information is grounds for disciplinary action,
+up to and including termination or legal prosecution.
+"""
+
+st.warning(nda_text)
+
+confirm = st.checkbox("✅ I agree to the terms of the NDA")
 
 if confirm:
-    st.success("Access granted. You may proceed to the main system.")
-    st.page_link("pages/navigation_menu_gui.py", label="Enter System", icon="➡️")
+    st.success("Access granted. Proceed to the system.")
+    st.page_link("pages/navigation_menu_gui.py", label="➡️ Enter System")
 else:
-    st.warning("You must agree to the NDA before proceeding.")
+    st.error("You must agree to the NDA before proceeding.")
 
+display_assistant_panel()
 display_abl_footer()
+st.caption("nda_gate_page.py | Rev 7.0")

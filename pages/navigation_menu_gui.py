@@ -16,8 +16,9 @@ st.title("Navigation Menu")
 
 st.markdown("Use the button below to navigate to the Employee Application module.")
 
+# ✅ This label must exactly match the sidebar name
 if st.button("📋 Employee Application"):
-    st.switch_page("employee_application_gui.py")
+    st.switch_page("Employee Application Gui")
 
 display_assistant_shell()
 display_abl_footer()

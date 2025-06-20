@@ -12,7 +12,7 @@ def main():
     agree = st.checkbox("✅ I Agree – Enter System")
 
     if agree:
-        st.switch_page("Navigation Menu GUI")  # ✅ Must match exact page label
+        st.switch_page("navigation_menu_gui.py")  # ✅ Must match exact page label
 
 if __name__ == "__main__":
     main()

@@ -1,26 +1,16 @@
 import streamlit as st
+from components.shared_ui_components import display_logo, display_abl_footer
 
-from shared_ui_components import (
-    display_logo,
-    display_abl_footer,
-    display_language_toggle_button,
-    display_assistant_shell,
-    display_about_this_form,
-    display_gui_version
-)
-
-st.set_page_config(page_title="NDA Gate")
-
+st.set_page_config(page_title="AIOS Module", layout="wide")
 display_logo()
-display_language_toggle_button()
-st.title("Confidential Access Agreement")
-st.markdown("This system is protected under a Non-Disclosure Agreement (NDA). To continue, you must accept the confidentiality terms.")
 
-agree = st.checkbox("✅ I Agree – Enter System")
-if agree:
-    st.success("Access granted. Redirecting...")
-    st.switch_page("Navigation Menu")  # ✅ Cloud requires page_title, not filename
+st.selectbox("🌐 Language", ["English", "Español", "Français"])
 
-display_assistant_shell()
+with st.expander("About this form"):
+    st.markdown("This form is part of the Adaptive Integrated Operations System (AIOS). It supports employee workflows at Rising Against All Odds. Please complete all required fields and submit to your supervisor or system administrator.")
+
+st.markdown("#### 💬 Need help?")
+st.info("Our AI assistant is available in each module to provide support and answer questions based on official policy.")
+
 display_abl_footer()
-display_gui_version("nda_gate_page.py", "v1.0")
+st.code(__file__.split("/")[-1], language="plaintext")

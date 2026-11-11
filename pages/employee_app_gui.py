@@ -1,10 +1,6 @@
-import sys
 import streamlit as st
 
-# Extend path to access shared UI components
-sys.path.append("/Users/timothygriffin/Dropbox/EI_Cloud/ABL_Rev2_6_1_25/tools/")
-
-from shared_ui_components import (
+from tools.shared_ui_components import (
     display_logo,
     display_abl_footer,
     display_language_toggle_button,
@@ -30,7 +26,7 @@ display_about_this_form(
 st.write("📄 This is a placeholder for the employee application module.")
 
 if st.button("⬅️ Back to Navigation"):
-    st.switch_page("navigation_menu_gui.py")
+    st.switch_page("pages/navigation_menu_gui.py")
 
 display_assistant_shell()
 display_abl_footer()

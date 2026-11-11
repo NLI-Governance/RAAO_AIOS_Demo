@@ -2,14 +2,14 @@ import streamlit as st
 from components.shared_ui_components import (
     display_logo,
     display_abl_footer,
-    display_language_toggle,
+    display_language_selector,
     display_about_section,
-    display_chatgpt_assistant
+    display_assistant_panel
 )
 
 st.set_page_config(page_title="Training Tracker", layout="wide")
 display_logo()
-display_language_toggle()
+display_language_selector()
 display_about_section("Use this form to log employee training completions. Each record is stored for compliance reporting.")
 
 st.markdown("### 📋 Training Tracker")
@@ -28,7 +28,7 @@ with col2:
 if st.button("Submit Training Record"):
     st.success("✅ Training record submitted successfully!")
 
-display_chatgpt_assistant()
+display_assistant_panel()
 display_abl_footer()
 
 st.markdown("`training_tracker_gui.py`")

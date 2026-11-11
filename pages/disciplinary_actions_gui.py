@@ -1,5 +1,6 @@
 import streamlit as st
 import pandas as pd
+from pathlib import Path
 from components.shared_ui_components import (
     display_logo,
     display_abl_footer,
@@ -33,8 +34,6 @@ with st.form("disciplinary_form"):
 
     submitted = st.form_submit_button("Submit Disciplinary Record")
     if submitted:
-        st.success("Record submitted successfully.")
-        # Placeholder logic for saving
         record = {
             "Employee Name": employee_name,
             "Employee ID": employee_id,
@@ -46,7 +45,10 @@ with st.form("disciplinary_form"):
             "Resolution Summary": resolution_summary
         }
         df = pd.DataFrame([record])
-        df.to_csv("data/disciplinary_records.csv", mode='a', header=not Path("data/disciplinary_records.csv").exists(), index=False)
+        record_path = Path(__file__).resolve().parents[1] / "data" / "disciplinary_records.csv"
+        record_path.parent.mkdir(parents=True, exist_ok=True)
+        df.to_csv(record_path, mode='a', header=not record_path.exists(), index=False)
+        st.success("Record submitted successfully.")
 
 display_assistant_panel()
 display_abl_footer()
